@@ -9,6 +9,7 @@ import JobsPage from './Components/Jobs/Jobs';
 import TermsAndConditionsPage from './Components/Policy/TermsAndConditionsPage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import OurOffersPage from './Components/Offers/OurOffersPage';
 
 // @ts-ignore
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/our-vision" element={<OurVisionPage />} />
+          <Route path="/our-offers" element={<OurOffersPage />} />
           <Route path="/verbatim-vision" element={<VerbatimVisionPage />} />
           <Route path="/jobs" element={<JobsPage />} />
           <Route
