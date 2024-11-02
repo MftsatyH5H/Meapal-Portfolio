@@ -7,9 +7,10 @@ import OurVisionPage from './Components/Vision/OurVisionPage';
 import VerbatimVisionPage from './Components/Vision/VerbatimVisionPage';
 import JobsPage from './Components/Jobs/Jobs';
 import TermsAndConditionsPage from './Components/Policy/TermsAndConditionsPage';
+import OurOffersPage from './Components/Offers/OurOffersPage';
+import Development from './Components/Development/Development';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OurOffersPage from './Components/Offers/OurOffersPage';
 
 // @ts-ignore
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/our-offers" element={<OurOffersPage />} />
           <Route path="/verbatim-vision" element={<VerbatimVisionPage />} />
           <Route path="/jobs" element={<JobsPage />} />
+          <Route path="/development" element={<Development />} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditionsPage />}
