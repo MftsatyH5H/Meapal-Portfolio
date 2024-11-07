@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+// Variables
+$circle-size: 34px;
+$circle-border: 4px;
+$blue-color: #182955;
+$red-color: #b7202f;
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.img-slider-container {
+  display: flex;
+  object-fit: contain;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img-slider {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+}

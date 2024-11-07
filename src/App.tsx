@@ -9,6 +9,7 @@ import JobsPage from './Components/Jobs/Jobs';
 import TermsAndConditionsPage from './Components/Policy/TermsAndConditionsPage';
 import OurOffersPage from './Components/Offers/OurOffersPage';
 import Development from './Components/Development/Development';
+import ImgSlider from './Components/Slider/ImgSlider';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/verbatim-vision" element={<VerbatimVisionPage />} />
           <Route path="/jobs" element={<JobsPage />} />
           <Route path="/development" element={<Development />} />
+          <Route path="/slider" element={<ImgSlider />} />
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditionsPage />}
